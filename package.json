@@ -1,0 +1,12 @@
+{
+	"devDependencies": {
+		"nx": "^15.2.0"
+	},
+	"scripts": {		
+		"build-application1": "nx run-many --parallel --target=build --projects=application1",
+		"serve-application1": "nx run-many --parallel --target=serve --projects=application1",
+		"preview-application1": "nx run-many --parallel --target=preview --projects=application1",
+
+		"build-table": "nx run-many --parallel --target=build --projects @mytoolkit/table"
+	}
+}
