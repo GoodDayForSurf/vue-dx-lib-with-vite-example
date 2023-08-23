@@ -1,6 +1,5 @@
 <template>
   <SimpleDxButton text="DX-BUTTON"/>
-  <SmartSwitch :value="true"/>
   <DxDataGrid
     ref="dxDataGrid"
     v-if="forceRefreshField"
@@ -91,7 +90,6 @@
 <script lang="ts">
 import type DataSource from 'devextreme/data/data_source';
 import {DxButton as SimpleDxButton} from 'devextreme-vue/button';
-import {DxSwitch as SmartSwitch} from 'devextreme-vue/switch';
 import {
   DxDataGrid,
   DxButton,
@@ -118,7 +116,6 @@ export default defineComponent({
   name: 'SmartTableV2',
   components: {
     SimpleDxButton,
-    SmartSwitch,
     DxDataGrid,
     DxButton,
     DxPager,

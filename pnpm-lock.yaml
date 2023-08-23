@@ -24,8 +24,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       devextreme:
-        specifier: ../../devextreme-23.2.0_files_v4.tgz
-        version: file:devextreme-23.2.0_files_v4.tgz
+        specifier: ../../devextreme-23.2.0_files_v9.tgz
+        version: file:devextreme-23.2.0_files_v9.tgz
       devextreme-vue:
         specifier: 23.1.4
         version: 23.1.4(devextreme@23.2.0)(vue@3.2.45)
@@ -112,8 +112,8 @@ importers:
         specifier: ^1.2.2
         version: 1.2.3
       devextreme:
-        specifier: ../../devextreme-23.2.0_files_v4.tgz
-        version: file:devextreme-23.2.0_files_v4.tgz
+        specifier: ../../devextreme-23.2.0_files_v9.tgz
+        version: file:devextreme-23.2.0_files_v9.tgz
       devextreme-vue:
         specifier: ^23.1.4
         version: 23.1.4(devextreme@23.2.0)(vue@3.2.45)
@@ -1620,15 +1620,17 @@ packages:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
 
-  /devexpress-diagram@2.1.76:
-    resolution: {integrity: sha512-/s1noFQcxsJL0zxIuYT/+k3NhkmzPe1hKI5DkFw3wa940TI8zCl328ppdsHRlMwXwgG/Xs9BzY5eEOhu1/b0LA==}
+  /devexpress-diagram@2.2.1:
+    resolution: {integrity: sha512-Zft7t9tmAp6xNeZMK9xk8qomRRZpuHz+2wm+3F8kjuYPbj/8v69wf4lK8ANQDadra3VV9Hm0NmYgjTJJ+t4ggg==}
+    engines: {node: '>=18.0.0'}
     dependencies:
       '@devexpress/utils': 1.3.16
       es6-object-assign: 1.1.0
     dev: false
 
-  /devexpress-gantt@4.1.47:
-    resolution: {integrity: sha512-FEcg7+Sew0jzo4++1bpoyzRejOZX7CxYUx8UiYWXR/Ei2nRcpOzYVqqb1nJMgWKIl0z0H1t4xulNQdRQ8u+/Xw==}
+  /devexpress-gantt@4.1.48:
+    resolution: {integrity: sha512-vJ0Mp5ccBuIsJbvzQx3xkyn4qtd/IbTyajWgA+rV5MsbPGYF6V3HPwI65KYSCpsatbMAlHSl/YpFDm7yvMqfrg==}
+    engines: {node: '>=18.0.0'}
     dependencies:
       '@devexpress/utils': 1.4.1
       tslib: 2.3.1
@@ -1659,7 +1661,7 @@ packages:
       devextreme: ~23.1.4
       vue: ^2.5.16 || ^3.0.0
     dependencies:
-      devextreme: file:devextreme-23.2.0_files_v4.tgz
+      devextreme: file:devextreme-23.2.0_files_v9.tgz
       vue: 3.2.45
     dev: false
 
@@ -4397,16 +4399,16 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  file:devextreme-23.2.0_files_v4.tgz:
-    resolution: {integrity: sha512-x/kdb+2/I3dUZjl4ircDZ/Vuh5huKchCJ6ALxSvUmtE+e+olkTZbOmSbTcEAhWhYB2MRV6DoCoMe8fcIHhZR9A==, tarball: file:devextreme-23.2.0_files_v4.tgz}
+  file:devextreme-23.2.0_files_v9.tgz:
+    resolution: {integrity: sha512-TrVTbWNPPqjLzPVXfvzKzcJHwwe9FHgziFwki3M5hMqS8rajvW/keNtA/zJPgxAVJHkQWFhoFf8OlbcsDVC3PA==, tarball: file:devextreme-23.2.0_files_v9.tgz}
     name: devextreme
     version: 23.2.0
     hasBin: true
     dependencies:
       '@babel/runtime': 7.20.7
       '@devextreme/runtime': 3.0.11
-      devexpress-diagram: 2.1.76
-      devexpress-gantt: 4.1.47
+      devexpress-diagram: 2.2.1
+      devexpress-gantt: 4.1.48
       devextreme-quill: 1.6.2
       devextreme-showdown: 1.0.1
       inferno: 7.4.11
